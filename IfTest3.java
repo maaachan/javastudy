@@ -1,8 +1,8 @@
-public class IfTest2{
+public class IfTest3{
 public static void main(String[] args){
-    int myAge =50;
+    int myAge =35;
     char myBloodType = 'A';
-    if(myAge == 35 && myBloodType == 'B'){
+    if(myAge == 35 || myBloodType == 'B'){
         System.out.println("私の年齢は35歳で血液型は県です！");
     } else if(myAge == 35 && myBloodType == 'A'){
         System.out.println("私の年齢は35歳で血液型はA型です！");
