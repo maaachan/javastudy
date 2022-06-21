@@ -17,5 +17,14 @@ public class ArayTest {
     System.out.println(customer[0]);
     System.out.println(customer[1]);
     System.out.println(customer[2]);
+
+  //  String[] customer2;
+  //  customer2 = {"鈴木太郎,”suzuki_taro@xxxx.com","090-0000-9999"};    //new 型名[]{}で初期化する場合、宣言と初期化を分けられない！
+  //  String[] customer2;
+  //  customer2 =new String[]{}{"鈴木太郎","suzuki_taro@xxxx.com","090-0000-9999"};    //new 型名型名[]で初期化する場合、宣言と初期化を同時に行う
+    String[] customer2 = {"鈴木太郎","suzuki.taro@xxx.com","090-0000-9999"};   //new　型名[]で初期化する場合、宣言と初期化を同時に行う
+    System.out.println(customer[0]);
+    System.out.println(customer[1]);
+    System.out.println(customer[2]);
   } 
 }
