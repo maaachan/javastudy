@@ -16,7 +16,7 @@ public class VariableTest{
         System.out.println(letter[1]);  //2番目を表示：初期値として’’が元々代入されている
 
         String[] text = new String[5];  // Stringのデータ型にはnullが初期値
-        System.out.println(text[1]);  //2番目を表示：初期値としてnullが元々代入されている
+        System.out.println(text[1]);  //2番目を表示：初期値としてnullが元々代入されているs
    
     }
 }
